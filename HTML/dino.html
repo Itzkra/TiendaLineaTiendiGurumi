@@ -55,7 +55,7 @@
         <div class="titulo"><h1 style="font-size: 100px; font-family: Brush Script MT;">TiendiGurumi</h1></div>
           
         </div>
-          <div class="roww">
+          <div class="row">
           <div class="posicion">
             <div class="division">
               <div class="fecha" id="fecha">
@@ -65,26 +65,13 @@
                 <p>/</p>
                 <p id="año" class="año"></p>
               </div>
-              <div id="reloj" class="reloj">
-                <p id="hora" class="hora"></p>
-                <p>:</p>
-                <p id="minutos" class="minutos"></p>
-                <p>:</p>
-                <div class="caja-segundos">
-                  <p id="segundos" class="segundos"></p>
-                  <p id="ampm" class="ampm"></p>
-                </div>
-              </div>
+              <div id="relojnumerico" class="reloj" onload="cargarReloj();">
+            </div>   
             </div>
           </div>
         </div>
     </div>
-    </div>
-    <fieldset>
-      <legend id="fecha"></legend>
-      <h2 id="reloj"></h2>
-    </fieldset>
-  </div>  
+  </div>
 
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
