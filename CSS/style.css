@@ -53,9 +53,9 @@
     padding: auto;
 }
 img{
-    padding: auto;
-    margin-left: 10%;
+    margin-left: 15%;
     height: 400px;
+    object-position: center;
     
 
 }
